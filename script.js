@@ -10,8 +10,8 @@ function startGame() {
   current = 0;
   showQuestion();
 }
-
-function showQuestion() {
+function showQuestion() 
+{
   const q = document.getElementById("question");
   const btn = document.getElementById("nextBtn");
 
